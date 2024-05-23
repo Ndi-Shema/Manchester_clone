@@ -737,6 +737,10 @@ video {
   gap: 1.25rem;
 }
 
+.gap-8{
+  gap: 2rem;
+}
+
 .self-center{
   align-self: center;
 }
@@ -1160,6 +1164,10 @@ video {
 
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:gap-8{
+    gap: 2rem;
   }
 }
 
