@@ -1177,3 +1177,31 @@ video {
          columns: 4;
   }
 }
+
+.\[\&\>img\:not\(\:first-child\)\]\:mt-5>img:not(:first-child){
+  margin-top: 1.25rem;
+}
+
+.\[\&\>img\:not\(\:first-child\)\]\:mt-8>img:not(:first-child){
+  margin-top: 2rem;
+}
+
+@media (min-width: 768px){
+  .md\:\[\&\>img\:not\(\:first-child\)\]\:mt-5>img:not(:first-child){
+    margin-top: 1.25rem;
+  }
+
+  .md\:\[\&\>img\:not\(\:first-child\)\]\:mt-8>img:not(:first-child){
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:\[\&\>img\:not\(\:first-child\)\]\:mt-8>img:not(:first-child){
+    margin-top: 2rem;
+  }
+}
+
+lg.\[lg\&\>img\:not\(\:first-child\)\]\:mt-8>img:not(:first-child){
+  margin-top: 2rem;
+}
