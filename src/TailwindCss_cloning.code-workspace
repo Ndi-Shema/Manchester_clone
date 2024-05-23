@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "TailwindCss_cloning",
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TailwindCss_cloning"
+	}
+}
